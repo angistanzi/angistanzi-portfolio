@@ -4,7 +4,9 @@
 .customNav{
     padding-top: 10px;
     align-items: center;
+    background-color: transparent;
 }
+
 li a{
     padding: 15px;
 }
@@ -16,13 +18,19 @@ ul{
 
 
 /* Jumbotron */
-.jumbotron{
+.customJumbo{
     background-image: url(/css/Screenshot\ 2022-12-09\ at\ 2.29.49\ PM.png);
-    height:700px;
+    height:600px;
     background-position: center;
     background-repeat: no-repeat;
-    
-    
+    margin-top: -70px;
+    justify-content: flex-start;
+}
+
+
+
+.jumbotron h1{
+    padding: 30px;
 }
 
 .customButton{
