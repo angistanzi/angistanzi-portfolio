@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5{
 li a{
     padding: 15px;
     color: white;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 li a:hover{
@@ -32,7 +32,7 @@ ul{
 /* Jumbotron */
 .customJumbo{
     background-image: url(./backgroundImg.png);
-    height:750px;
+    height:850px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -60,6 +60,10 @@ ul{
 
 /* My Work*/
 
+.myProjects{
+ 
+}
+
 .myWork{
     justify-content: center;
 }
@@ -73,3 +77,17 @@ ul{
 .secondProjects{
     padding-top: 30px;
 }
+ /* About Me */
+
+ .mySkills{
+    margin-top: 50px;
+    background-image: url(./aboutMeImg.jpg);
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+ .aboutMe{
+    color: white;
+    padding-top: 30px;
+ }
