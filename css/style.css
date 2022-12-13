@@ -31,7 +31,7 @@ ul{
 
 /* Jumbotron */
 .customJumbo{
-    background-image: url(/css/Screenshot\ 2022-12-09\ at\ 2.29.49\ PM.png);
+    background-image: url(./backgroundImg.png);
     height:750px;
     background-position: center;
     background-repeat: no-repeat;
