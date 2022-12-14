@@ -62,12 +62,30 @@ li a:hover{
 /* My Work*/
 
 
-
 .myWork{
     justify-content: center;
 }
 .customCard{
     text-align: center;
+    background-color: rgb(198, 136, 255);
+    border-radius: 25px;
+    color: white;
+}
+
+.customCard img{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.btn{
+    background-color: transparent;
+    border-radius: 25px;
+    border: solid 2px white;
+}
+
+.btn:hover{
+    background-color: blueviolet;
+    border: solid 2px grey;
 }
 
 .projects{
@@ -104,6 +122,8 @@ li a:hover{
     list-style-type: none;
     text-align: left;
  }
+
+ /* Footer */
 
 footer{
     background-image: url(./backgroundImg.png);
