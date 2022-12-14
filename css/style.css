@@ -105,3 +105,14 @@ li a:hover{
     text-align: left;
  }
 
+footer{
+    background-image: url(./backgroundImg.png);
+    height: 50px;
+    align-items: center;
+}
+
+.footerButtons{
+    padding-top: 10px;
+    color: white;
+    list-style-type: none;
+}
