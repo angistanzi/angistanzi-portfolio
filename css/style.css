@@ -1,8 +1,12 @@
 
 h1, h2, h3, h4, h5{
     font-family: monospace;
+    color: white;
 }
 
+body{
+    background-image: linear-gradient(to bottom right, rgb(231, 188, 239), rgb(134, 211, 194));
+}
 
 /* Nav Bar */
 
@@ -102,6 +106,7 @@ li a:hover{
     height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
+    color: white;
  }
 
  .aboutMe{
@@ -112,28 +117,47 @@ li a:hover{
  .whoAmI{
     height: 300px;
     width: 300px;
-    background-color: rgb(195, 222, 222);
-    border: solid 2px black;
+    background-color: rgb(57, 101, 101);
+    border: solid 2px white;
     border-radius: 25px;
     text-align: center;
  }
 
+ .whoAmI h3{
+    padding-top: 20px;
+ }
+
+ .whoAmI p{
+    padding: 20px;
+    line-height:100%;
+ }
+
  .skillsList{
     list-style-type: none;
-    text-align: left;
+    text-align: center;
+    line-height: 100%;
+    padding-inline-start: 0 !important;
  }
 
  /* Footer */
 
 footer{
-    background-image: url(./backgroundImg.png);
-    height: 50px;
+    background-color: transparent;
+    height: 60px;
     align-items: center;
+    margin-top: -70px;
 }
 
 .footerButtons{
-    padding-top: 10px;
+    padding: 20px;
     color: white;
     list-style-type: none;
     margin-left: -50px;
+
+}
+
+.footerButtons li{
+    border: 1px solid white;
+    border-radius: 25px;
+
 }
